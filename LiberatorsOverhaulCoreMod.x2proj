@@ -9,7 +9,24 @@
     <RootNamespace>LiberatorsOverhaulCoreMod</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Config\XComEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEngine.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGame.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Config" />
+    <Folder Include="Localization" />
+    <Folder Include="Content" />
+    <Folder Include="Src" />
+    <Folder Include="Src\LiberatorsOverhaulCoreMod" />
+    <Folder Include="Src\LiberatorsOverhaulCoreMod\Classes" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
 </Project>
