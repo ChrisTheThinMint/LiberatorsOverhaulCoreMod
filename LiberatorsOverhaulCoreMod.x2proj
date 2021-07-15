@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>2d15e2ad-a730-478b-8b22-f3dfceb83f4d</Guid>
+    <Name>LiberatorsOverhaulCoreMod</Name>
+    <Description>Description of My XCOM 2 Mod.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>LiberatorsOverhaulCoreMod</AssemblyName>
+    <RootNamespace>LiberatorsOverhaulCoreMod</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
