@@ -1,0 +1,225 @@
+[RpgoRebalance_Infantry X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Infantry
+ClassSpecializationSummary="Got a rifle on my shoulder and a grenade on my belt. The Infantry might not be the shiniest soldier around, but they are dependable and can fight all types of enemies.<br/>AP Costs: Low (190)"
+
+[RpgoRebalance_Sentry X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Sentry
+ClassSpecializationSummary="With trained reflexes and quick thinking, the Sentry is an expert in the execution of reactive and defensive battlefield tactics.<br/>AP Costs: Average (195)"
+
+[RpgoRebalance_FireSupport X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Fire Support
+ClassSpecializationSummary="The Fire Support employs a simple but effective principle: keep firing. With bullets raining down on them our enemies will think twice before they move.<br/>AP Costs: Average (195)"
+
+[RpgoRebalance_Marksman X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Marksman
+ClassSpecializationSummary="Always carrying the right ammunition for the job and making the most of an elevated position, our Marksmen are skilled and reliable damage dealers.<br/>AP Costs: Average (200)"
+
+[RpgoRebalance_Pointman X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Pointman
+ClassSpecializationSummary="By constantly staying on the move, Pointmen make for flexible and aggressive frontliners, able to push past enemy lines while never neglecting their own survival.<br/>AP Costs: High (210)"
+
+[RpgoRebalance_Hunter X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Hunter
+ClassSpecializationSummary="Hunters always have their sights trained on a specific target, striking again and again without relent until it lies dead at their feet.<br/>AP Costs: Average (200)"
+
+[RpgoRebalance_Mercenary X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Mercenary
+ClassSpecializationSummary="Guns for hire? Good, because we need guns! The Mercenary is an offensive powerhouse, only growing more confident with each kill they make, and ready to take on entire squads.<br/>AP Costs: High (210)"
+
+[RpgoRebalance_Sapper X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Sapper
+ClassSpecializationSummary="Our Sappers are irregular combatants that rarely shoot to kill, but this creative application of firepower can often open up opportunities for others to get more clear shots.<br/>AP Costs: Low (190)"
+
+[RpgoRebalance_Defender X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Defender
+ClassSpecializationSummary="Defenders choose to be reactive rather than proactive, holding their ground and striking in the right moment to prevent the enemy from firing at their team.<br/>AP Costs: High (210)"
+
+[RpgoRebalance_Trooper X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Trooper
+ClassSpecializationSummary="The training of our Troopers focuses on close quarters combat, survivability and mental strength over all else. Their very presence anchors and reinforces a squad.<br/>AP Costs: High (210)"
+
+[RpgoRebalance_Guardsman X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Guardsman
+ClassSpecializationSummary="The fearless Guardsman never backs down from a fight, standing side by side with their fellow soldiers and even charging at the enemy when things get dire.<br/>AP Costs: Average (200)"
+
+[RpgoRebalance_Commando X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Commando
+ClassSpecializationSummary="Comparable to the special forces of pre-invasion militaries, our Commandos specialize in stealth techniques and rapid target elimination.<br/>AP Costs: Average (195)"
+
+[RpgoRebalance_Assault X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Assault
+ClassSpecializationSummary="When charging into an enemy position, everything depends on one critical moment. Assaults are trained to make that moment count, displaying incredible feats through bursts of courage and adrenaline.<br/>AP Costs: High (215)"
+
+[RpgoRebalance_Blueblood X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Gunslinger
+ClassSpecializationSummary="Invented by resistance agent \"Blueblood\", the Gunslinger style consists of various tactical firing techniques that turn a simple pistol into a lethal and efficient primary weapon.<br/>AP Costs: Low (190)"
+
+[RpgoRebalance_Agent X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Agent
+ClassSpecializationSummary="The Agent operates from the shadows, using surprise and fancy gadgets to get in and out without a scratch.<br/>AP Costs: Average (200)"
+
+[RpgoRebalance_Desperado X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Desperado
+ClassSpecializationSummary="The Desperado is a wild-firing pistoleer that isnt exactly what you would call reliable, but can still get surprising results when let loose on the enemy.<br/>AP Costs: Very Low (175)"
+
+[RpgoRebalance_Raider X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Raider
+ClassSpecializationSummary="Few foes go face-to-face with a Raider and live to tell the tale. In their hands the simple sawed-off becomes a flexible and powerful short-range weapon.<br/>AP Costs: Average (200)"
+
+[RpgoRebalance_Marauder X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Marauder
+ClassSpecializationSummary="A Marauder is a terrifying force to behold. They use blood magic to fuel their sawed-off with dark munitions and to traverse the battlefield without any bounds.<br/>AP Costs: Low (190)"
+
+[RpgoRebalance_Scrapper X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Scrapper
+ClassSpecializationSummary="While every Scrapper loves to give an alien a face full of buckshot, their proficiency with shotguns also extends to the use of more unique and destructive shell types.<br/>AP Costs: High (215)"
+
+[RpgoRebalance_Expert X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Sharpshooter
+ClassSpecializationSummary="The Sharpshooter is a skilled sniper that can deal devastating blows to exposed enemies, and grows ever more precise with every kill they make.<br/>AP Costs: High (215)"
+
+[RpgoRebalance_Overseer X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Expert
+ClassSpecializationSummary="The Expert excels at eliminating key targets, even opting to use heavier munitions to make sure their foes go down in one well-placed shot.<br/>AP Costs: High (210)"
+
+[RpgoRebalance_Oppressor X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Oppressor
+ClassSpecializationSummary="A heavy weapons specialist, the Oppressor utilizes the constant fire from a cannon to keep enemies locked down or to mow them down if they attempt to move.<br/>AP Costs: High (210)"
+
+[RpgoRebalance_Demolisher X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Demolisher
+ClassSpecializationSummary="Few can control the recoil of a cannon enough to concentrate it's fire, but the Demolisher is trained to do exactly that, dealing heavy damage and shredding away enemy armor.<br/>AP Costs: Very High (220)"
+
+[RpgoRebalance_Protector X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Protector
+ClassSpecializationSummary="Our Protectors are armored units that absorb enemy fire and provide cover to allies, using either ballistic shields or the experimental shieldwall technology attached to our exosuits.<br/>AP Costs: Low (190)"
+
+[RpgoRebalance_Shocktrooper X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Shocktrooper
+ClassSpecializationSummary="Shocktroopers wield ballistic shields offensively, not only to draw fire as they advance, but also as heavy melee weapons that can give an alien quite a concussion.<br/>AP Costs: Average (195)"
+
+[RpgoRebalance_Breacher X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Breacher
+ClassSpecializationSummary="With grenades at the ready the Breacher excels at pushing into enemy positions, ruthlessly executing foes that are left stunned by their explosive entrance.<br/>AP Costs: Average (205)"
+
+[RpgoRebalance_Pioneer X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Pioneer
+ClassSpecializationSummary="The Pioneer brings an array of planted explosives to the field that provide great utility in both offensive and defensive scenarios.<br/>AP Costs: High (210)"
+
+[RpgoRebalance_Demolitionist X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Technician
+ClassSpecializationSummary="The Technician is a specialized explosive user, always salvaging ADVENT material and tinkering to improve their chances against mechanical foes.<br/>AP Costs: Average (205)"
+
+[RpgoRebalance_Artillerist X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Demolitionist
+ClassSpecializationSummary="The Demolitionist is trained to carry more explosives and, once their training advances, also more powerful variants that saturate larger areas.<br/>AP Costs: Average (200)"
+
+[RpgoRebalance_Bomber X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Bomber
+ClassSpecializationSummary="Bombers excel in the use of thrown and elemental grenades, impairing enemies caught in the explosions and leaving them to die to the aftereffects.<br/>AP Costs: Low (190)"
+
+[RpgoRebalance_Mirage X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Mirage
+ClassSpecializationSummary="The Mirage uses smoke grenades, mixing complex chemicals into them to obscure and revitalize allies. They've also been trained to use electronic countermeasures.<br/>AP Costs: High (215)"
+
+[RpgoRebalance_Valkyrie X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Valkyrie
+ClassSpecializationSummary=""
+
+[RpgoRebalance_CombatMedic X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Combat Medic
+ClassSpecializationSummary="Our Combat Medics are versatile fighters that not only know how to keep a squad alive, but can also support their offensive with a little extra.<br/>AP Costs: Low (195)"
+
+[RpgoRebalance_Paramedic X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Paramedic
+ClassSpecializationSummary="When all else fails, the Paramedic is there to patch up their bullet-ridden comrades and get them back to safety, or atleast back in the fight.<br/>AP Costs: Very Low (180)"
+
+[RpgoRebalance_Pharmacist X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Pharmacist
+ClassSpecializationSummary="The Pharmacist's method of healing someone by shooting them is scary to most, but there are usually no complaints once a stim has saved their life on the field.<br/>AP Costs: High (215)"
+
+[RpgoRebalance_Surgeon X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Surgeon
+ClassSpecializationSummary="The Surgeon is an medical expert that uses their knowledge of anatomy to support allies or to inflict deep knife wounds on the enemy.<br/>AP Costs: Very Low (175)"
+
+[RpgoRebalance_Butterfly X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Butterfly
+ClassSpecializationSummary="Agile combatants that excel in close quarters, Butterflies flit between enemies with strafing knife or ripjack slashes.<br/>AP Costs: Low (190)"
+
+[RpgoRebalance_Shinobi X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Blademaw
+ClassSpecializationSummary="Blademaws are brutal melee combatants that charge at their foes and tear them apart with rapid cuts and stabs when you least expect them to.<br/>AP Costs: Low (185)"
+
+[RpgoRebalance_Skirmisher X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Avenger
+ClassSpecializationSummary="After completing the strict training regimen of the Skirmishers, an Avenger is able to use the exotic ripjack gauntlets to great effect in close combat.<br/>AP Costs: High (215)"
+
+[RpgoRebalance_Vanguard X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Vanguard
+ClassSpecializationSummary="The Vanguard is an evasive and highly mobile melee combatant that excels at intercepting and executing weakened enemies.<br/>AP Costs: Average (205)"
+
+[RpgoRebalance_Warrior X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Warrior
+ClassSpecializationSummary="Our Warriors often take \"calculated risks\", charging head-first into enemy lines and overwhelming them with furious blows.<br/>AP Costs: Low (185)"
+
+[RpgoRebalance_Duelist X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Duelist
+ClassSpecializationSummary="The Duelist is trained to go toe-to-toe with brutes and beasts, drawing their attention away from the squad and disabling them with well-placed strikes.<br/>AP Costs: Average (200)"
+
+[RpgoRebalance_Bladesinger X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Bladesinger
+ClassSpecializationSummary="Bladesingers draw on centuries of martial and mystical traditions from the old world to execute powerful techniques with bladed weapons.<br/>AP Costs: Low (185)"
+
+[RpgoRebalance_Stormrider X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Stormrider
+ClassSpecializationSummary="The Stormriders possess rage-fueled psionic powers that manifest as red lightning. They have an affinity for melee combat, but do not require a melee weapon to make full use of their powers.<br/>AP Costs: Very High (220)"
+
+[RpgoRebalance_Electrician X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Stun Gunner
+ClassSpecializationSummary="The use of an Arc Thrower does not necessitate good marksmanship, allowing Stun Gunners to focus on deploying it faster and in more exotic ways instead."
+
+[RpgoRebalance_Machinist X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Machinist
+ClassSpecializationSummary="Machinists are experts of electronic warfare, utilizing the Arc Thrower to disrupt and haywire robots, and other gadgets to effectively infiltrate the ADVENT network.<br/>AP Costs: Average (205)"
+
+[RpgoRebalance_Spotter X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Spotter
+ClassSpecializationSummary="Spotters use the Holoprojectors basic targeting function and enhance it in various ways to keep track of enemies and give their allies a clear shot on them.<br/>AP Costs: Average (200)"
+
+[RpgoRebalance_Trickster X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Trickster
+ClassSpecializationSummary="Tricksters apply the Holoprojector in more unique - and potentially unsafe - ways, leaving enemies blinded, confused or even set alight.<br/>AP Costs: High (210)"
+
+[RpgoRebalance_Mastermind X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Controller
+ClassSpecializationSummary="A type of gremlin handling even favored by Shen herself, a Controller uses the gremlin drone offensively to shock and disrupt enemy forces.<br/>AP Costs: Average (205)"
+
+[RpgoRebalance_ValkyrieGremlin X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Valkyrie
+ClassSpecializationSummary="The mist-dispensing systems of a gremlin are very powerful under the Valkyrie's guidance, allowing them to protect a specific ally or to keep all nearby allies alive.<br/>AP Costs: Average (195)"
+
+[RpgoRebalance_Warden X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Warden
+ClassSpecializationSummary="Utilizing the gremlin's sensors and microprocessors to the fullest, the Warden focuses on gathering battlefield intel and acting on it.<br/>AP Costs: High (210)"
+
+[RpgoRebalance_Arsenal X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Arsenal
+ClassSpecializationSummary="The BIT may have originally been intended for control by a SPARK, but a well-trained \"Arsenal\" operator can also use it to effectively supply and defend a squad.<br/>AP Costs: Average (195)"
+
+[RpgoRebalance_Dynamo X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Dynamo
+ClassSpecializationSummary="The BIT's self-sufficient elerium reactor is of great interest to the Dynamo, as they use the powerful energy output to project lethal chaining jolts.<br/>AP Costs: High (215)"
+
+[RpgoRebalance_Custodian X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Custodian
+ClassSpecializationSummary="The heavy shield projector units of the BIT serve the Custodian well, who directs them to protect allies and emprison dangerous foes.<br/>AP Costs: Very High (225)"
+
+[RpgoRebalance_Telepath X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=Telepath
+ClassSpecializationSummary="The Telepath abandons conventional ways of fighting and instead opens to their psionic potential, taking ever greater risks in their pursuit of power.<br/>AP Costs: Low (185)"
+
+[RpgoRebalance_ X2UniversalSoldierClassInfo]
+ClassSpecializationTitle=
+ClassSpecializationSummary=""
+
+ItemCategoryHolotargeter="Holoprojector"

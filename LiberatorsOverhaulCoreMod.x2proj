@@ -9,16 +9,361 @@
     <RootNamespace>LiberatorsOverhaulCoreMod</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Config\XComAbilityEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComAI.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComAmmo.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComAnimation.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComArmourGivesDefense.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComAutogunHeavyWeapon.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComBDData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComBstarsPerkPack.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComCIA.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComClassData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComCombatKnifeMod.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComCorrosiveRounds.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComCrossTraining.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComCSA.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComDefensiveOverhaul.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComDisposableLaunchers.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Config\XComEditor.ini">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Config\XComEngine.ini">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Config\XComExtendedGrenadeTweaks.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComExtendedPerkPack.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Config\XComGame.ini">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Config\XComGameBoard.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameCore.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_CharacterStats.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_SoldierSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_WeaponData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_XPData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGrimyPerkPorts.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGuardConfig.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComHackerLaptop.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComKatanaMod.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComKick.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComKickAndPunch.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComLatentPsionics.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComLucubrationsInfantryClass.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComLW2SecondariesWOTC.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComLW_SMGPack_WotC.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComLW_SoldierSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComMissions.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComMZAmmoMod.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComMZPerkPack.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComMZPerkWeapons.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComMZVestMod.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPistolSlot.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPrimarySecondaries.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPromotionUIMod.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPunch.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComRedFog.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComRider.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComRocketLaunchers.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComRockets.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComRPG.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComRPGO_SoldierSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComSamuraiClass.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComScatter.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComSecondWaveDeltaStrike.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComSetItemWeight.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComShields.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComSoldierSkills_StimGun.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComStatUpgradeUI.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComStealthOverhaul.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComSystemInfiltration.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComTankClassWOTC.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComTemplateCreator.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComUI.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComUnarmed.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWeaponSkinReplacer.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWOTC_APA_AssaultSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWOTC_APA_Class_Pack.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWOTC_APA_MarineSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWOTC_APA_MarksmanSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWOTC_APA_MedicSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWOTC_APA_ReaperSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWOTC_APA_SapperSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWOTC_APA_SkirmisherSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWOTC_APA_SpecialistSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWOTC_APA_WeaponAttachments.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWOTC_APA_WeaponData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWOTC_APA_WeaponUpgrades.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWOTC_LW2_Plating.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWOTC_MultipleAttacksMayGraze.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWOTC_SoldierDevelopment.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_MZButterflyClass.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\MitzrutiPerkPack.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\RPGOAbilityPatches.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\WOTCRocketLaunchers.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\WOTC_APA_Assault.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\WOTC_APA_Marine.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\WOTC_APA_Marksman.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\WOTC_APA_Medic.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\WOTC_APA_Sapper.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\WOTC_APA_Skirmisher.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\WOTC_SoldierConditioning.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\XCOM2RPGOverhaul.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\XComGame.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\LiberatorsOverhaulCoreMod.int">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ReadMe.txt" />
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\CoverDR_Impl.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\OnStatAssignmentCompleteClosure.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\TemplateHelper_AbilityPatches.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\TemplateHelper_FacilityPatches.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\UIScreenListener_ForceUniqueItem.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\WOTC_APA_Class_Utilities_Effects.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\X2Ability_ExtraPerkAdditions.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\X2Action_DisplayCoverDR.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\X2Action_Fire_Haymaker.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\X2Condition_WOTC_APA_Braced.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\X2Condition_WOTC_APA_Class_EffectRequirement.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\X2Condition_WOTC_APA_Class_ValidWeaponCategory.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\X2DownloadableContentInfo_LiberatorsOverhaulCoreMod.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\X2Effect_ApplyScalingDamage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\X2Effect_ApplyWeaponDamage_Custom.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\X2Effect_Shredder_Custom.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\X2Effect_WOTC_APA_Class_AddAbilitiesToTarget.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\X2EventListener_NCETraitRoller.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\X2EventListener_NCETraits.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\XMBEffectUtilities.uc">
+      <SubType>Content</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Config" />

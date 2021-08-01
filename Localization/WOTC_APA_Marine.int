@@ -1,0 +1,14 @@
+
+[X2Ability_WOTC_APA_MarineAbilitySet]
+
+;  -- Localized Strings for Marine Abilities --
+;  --------------------------------------------
+
+strFireDiscipline1Name="Fire Discipline I"
+strFireDiscipline1Desc="<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL I</font><br/><Bullet/> Reaction shots can inflict critical hits and will only be taken at a minimum hit chance that can be toggled.<br/><Bullet/> Gain <font color='#3ABD23'>+<Ability:FIRE_DISCIPLINE_AMMO_BONUS/></font> round of ammunition in each magazine."
+
+strFireDiscipline2Name="Fire Discipline I"
+strFireDiscipline2Desc="<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL I</font><br/><Bullet/> Reaction shots can inflict critical hits and will only be taken at a minimum hit chance that can be toggled.<br/><Bullet/> Gain <font color='#3ABD23'>+<Ability:FIRE_DISCIPLINE_AMMO_BONUS/></font> round of ammunition in each magazine."
+
+strFireDiscipline3Name="Fire Discipline II"
+strFireDiscipline3Desc="<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL II</font><br/><Bullet/> Reaction shots can inflict critical hits and have <font color='#3ABD23'>+<Ability:FIRE_DISCIPLINE_REACTION_FIRE_AIM_BONUS_3/>%</font> chance to hit. Limited to suppression for cannons/machineguns.<br/><Bullet/> Gain <font color='#3ABD23'>+<Ability:FIRE_DISCIPLINE_AMMO_BONUS/></font> round of ammunition in each magazine."

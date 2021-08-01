@@ -1,0 +1,17 @@
+
+[X2Ability_WOTC_APA_SapperAbilitySet]
+
+;  -- Localized Strings for Assault Infantry Abilities --
+;  ------------------------------------------------------
+
+strExplosiveOrdnance1Name = "Explosive Ordnance I"
+strExplosiveOrdnance1Desc = "<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL I</font><br/><Bullet/> All your explosives gain a <font color='#3ABD23'>25%</font> chance to inflict a critical hit, dealing <font color='#3ABD23'>+2</font> damage.<br/><Bullet/> Grenades equipped in your grenade-only slot gain <font color='#3ABD23'>+1</font> charge (excludes unique grenades, like the Frost Bomb).<br/><Bullet/> Rockets and Disposable Rocket Launchers have reduced scatter."
+
+strExplosiveOrdnance2Name = "Explosive Ordnance I"
+strExplosiveOrdnance2Desc = "<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL I</font><br/><Bullet/> All your explosives gain a <font color='#3ABD23'>25%</font> chance to inflict a critical hit, dealing <font color='#3ABD23'>+2</font> bonus damage.<br/><Bullet/> Grenades equipped in your grenade-only slot gain <font color='#3ABD23'>+1</font> charge (excludes unique grenades, like the Frost Bomb).<br/><Bullet/> Rockets and Disposable Rocket Launchers have reduced scatter."
+
+strExplosiveOrdnance3Name = "Explosive Ordnance II"
+strExplosiveOrdnance3Desc = "<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL II</font><br/><Bullet/> All your explosives deal <font color='#3ABD23'>+1</font> damage and gain a <font color='#3ABD23'>25%</font> chance to inflict a critical hit, dealing <font color='#3ABD23'>+3</font> bonus damage.<br/><Bullet/> Grenades equipped in your grenade-only slot gain <font color='#3ABD23'>+1</font> charge (excludes unique grenades, like the Frost Bomb).<br/><Bullet/> Rockets and Disposable Rocket Launchers have reduced scatter."
+
+[X2Effect_WOTC_APA_ChemicalWarfare]
+strChemicalWarfareFlyover = "Chemical Warfare: Stunned!"

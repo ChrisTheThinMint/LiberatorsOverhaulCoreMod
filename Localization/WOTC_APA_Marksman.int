@@ -1,0 +1,14 @@
+
+[X2Ability_WOTC_APA_MarksmanAbilitySet]
+
+;  -- Localized Strings for Assault Infantry Abilities --
+;  ------------------------------------------------------
+
+strPrecisionTargeting1Name = "Precision Targeting I"
+strPrecisionTargeting1Desc = "font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL I</font><br/>Gain the following bonuses when firing a braced strike rifle or sniper rifle:<br/><Bullet/> Squadsight aim penalties are reduced by <font color='#3ABD23'>-15%</font>.<br/><Bullet/> Enemy dodge is reduced by <font color='#3ABD23'>-20%</font>"
+
+strPrecisionTargeting2Name = "Precision Targeting I"
+strPrecisionTargeting2Desc = "<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL I</font><br/>Gain the following bonuses when firing a braced strike rifle or sniper rifle:<br/><Bullet/> Squadsight aim penalties are reduced by <font color='#3ABD23'>-15%</font>.<br/><Bullet/> Enemy dodge is reduced by <font color='#3ABD23'>-20%</font>."
+
+strPrecisionTargeting3Name = "Precision Targeting II"
+strPrecisionTargeting3Desc = "<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL II</font><br/>Gain the following bonuses when firing a braced strike rifle or sniper rifle:<br/><Bullet/> Squadsight aim penalties are reduced by <font color='#3ABD23'>-30%</font>.<br/><Bullet/> Enemy dodge is reduced by <font color='#3ABD23'>-40%</font>.<br/><Bullet/> Gain 10%</font> crit chance against targets that are in cover or cannot be flanked."

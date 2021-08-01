@@ -1,0 +1,5 @@
+[MZIsmsRogue_AbilitySet]
+ScoutingReport_Intel = "Data"
+ScoutingReport_IntelDesc = "Gather one data per turn. Increases Aim and Defense of the whole squad."
+RushOfBattle_Adrenaline = "Bio Samples"
+RushOfBattle_AdrenalineDesc = "Gain 3 bio samples on kill, and 1 when an ally kills. Increases Dodge."

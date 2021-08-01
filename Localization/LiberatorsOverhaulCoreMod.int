@@ -1,0 +1,3 @@
+[CoverDR_Impl]
+MitigationMessage="COVER"
+MitigationNoCoverMessage="TOUGHNESS"

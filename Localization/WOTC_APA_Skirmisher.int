@@ -1,0 +1,22 @@
+[X2AbilityTag_WOTC_APA_Skirmisher]
+
+;  -- Localized Strings for Ability Tags --
+;  ----------------------------------------
+
+; // Generic Tags
+strOnce = "Once"
+strUpTo = "Up to"
+strTimes = "times"
+strTiles = "tiles"
+
+[X2Ability_WOTC_APA_SkirmisherAbilitySet]
+
+strHeatsink1Name = "Heatsink I"
+strHeatsink1Desc = "<font color='#CA7200'>FOCUS MECHANIC:</font><br/><Bullet/> Gain <font color='#3ABD23'>+<Ability:HEATSINK_CRIT_CHANCE_BONUS/>%</font> Critical Hit chance on Ripjack attacks for each level of Heat.<br/><Bullet/> Gain <font color='#3ABD23'>+<Ability:HEATSINK_DAMAGE_BONUS/></font> Damage on Ripjack attacks for every <font color='#CA7200'><Ability:HEATSINK_DAMAGE_BONUS_CHARGE_DIVISOR/></font> levels of Heat.."
+strHeatsink2Name = "Heatsink II"
+strHeatsink2Desc = "<font color='#CA7200'>FOCUS MECHANIC:</font><br/><Bullet/> Gain <font color='#3ABD23'>+<Ability:HEATSINK_CRIT_CHANCE_BONUS/>%</font> Critical Hit chance on Ripjack attacks for each level of Heat.<br/><Bullet/> Gain <font color='#3ABD23'>+<Ability:HEATSINK_DAMAGE_BONUS/></font> Damage on Ripjack attacks for every <font color='#CA7200'><Ability:HEATSINK_DAMAGE_BONUS_CHARGE_DIVISOR/></font> levels of Heat.<br/><Bullet/>Gain the Justice ability."
+strHeatsink3Name = "Heatsink III"
+strHeatsink3Desc = "<font color='#CA7200'>FOCUS MECHANIC:</font><br/><Bullet/> Gain <font color='#3ABD23'>+<Ability:HEATSINK_CRIT_CHANCE_BONUS/>%</font> Critical Hit chance on Ripjack attacks for each level of Heat.<br/><Bullet/> Gain <font color='#3ABD23'>+<Ability:HEATSINK_DAMAGE_BONUS/></font> Damage on Ripjack attacks for every <font color='#CA7200'><Ability:HEATSINK_DAMAGE_BONUS_CHARGE_DIVISOR/></font> levels of Heat.<br/><Bullet/>Gain the Justice and Wrath abilities."
+
+strHeatLevelName = "Heat Level"
+strHeatLevelDesc = "The amount of Heat stored in the Ripjack."

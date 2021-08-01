@@ -1,0 +1,21 @@
+
+[X2Ability_WOTC_APA_MedicAbilitySet]
+
+;  -- Localized Strings for Medic Abilities --
+;  -------------------------------------------
+
+strMedicalSpecialistHealModMsg="Medical Specialist: Healed <HealMod/> extra HP"
+
+strMedicalSpecialist1Name="Medical Specialist I"
+strMedicalSpecialist1Desc="<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL I</font><br/><Bullet/> Equipped medkits have <font color='#3ABD23'>+<Ability:MED_I_EQUIPPED_MEDKITS_BONUS/></font> charges."
+
+strMedicalSpecialist2Name="Medical Specialist I"
+strMedicalSpecialist2Desc="<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL I</font><br/><Bullet/> Equipped medkits have <font color='#3ABD23'>+<Ability:MED_I_EQUIPPED_MEDKITS_BONUS/></font> charges."
+
+strMedicalSpecialist3Name="Medical Specialist II"
+strMedicalSpecialist3Desc="<font color='#CA7200'>CLASS SKILL PROFICIENCY LEVEL II</font><br/><Bullet/> Equipped medkits have <font color='#3ABD23'>+<Ability:MED_I_EQUIPPED_MEDKITS_BONUS/></font> charges.<br/><Bullet/> Healing abilities heal <font color='#3ABD23'>+1</font> hitpoints."
+
+
+strAdvTraumaKitsReviveHealFlyover="Advanced Trauma Kits: Healed <HealMod/> HP"
+strCombatStimulantsTickedFlyover="Combat Stimulant: <Duration/> turns remaining!"
+strCombatStimulantsRemovedFlyover="Combat Stimulant After Effects - Unit lost <HP/> HP and <Will/> Will!"
