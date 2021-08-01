@@ -9,6 +9,63 @@
     <RootNamespace>LiberatorsOverhaulCoreMod</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Config\Weapons\Artillery Cannons\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Weapons\Assault Rifles\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Weapons\Autocannons\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Weapons\Autopistols\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Weapons\Battle Axes\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Weapons\Battle Rifles\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Weapons\Bullpups\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Weapons\Cannons\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Weapons\Combat Knives\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Weapons\Katanas\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Weapons\Pistols\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Weapons\Ripjacks\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Weapons\Sawed-Offs\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Weapons\Shotguns\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Weapons\SMGs\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Weapons\Sniper Rifles\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Weapons\Strike Rifles\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Weapons\Swords\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Weapons\Vektor Rifles\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Config\XComAbilityEditor.ini">
       <SubType>Content</SubType>
     </Content>
@@ -367,6 +424,26 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Config" />
+    <Folder Include="Config\Weapons" />
+    <Folder Include="Config\Weapons\Assault Rifles" />
+    <Folder Include="Config\Weapons\Autopistols" />
+    <Folder Include="Config\Weapons\Battle Axes" />
+    <Folder Include="Config\Weapons\Battle Rifles" />
+    <Folder Include="Config\Weapons\Bullpups" />
+    <Folder Include="Config\Weapons\Cannons" />
+    <Folder Include="Config\Weapons\Combat Knives" />
+    <Folder Include="Config\Weapons\Katanas" />
+    <Folder Include="Config\Weapons\Artillery Cannons" />
+    <Folder Include="Config\Weapons\Autocannons" />
+    <Folder Include="Config\Weapons\Vektor Rifles" />
+    <Folder Include="Config\Weapons\Swords" />
+    <Folder Include="Config\Weapons\Strike Rifles" />
+    <Folder Include="Config\Weapons\Sniper Rifles" />
+    <Folder Include="Config\Weapons\SMGs" />
+    <Folder Include="Config\Weapons\Shotguns" />
+    <Folder Include="Config\Weapons\Sawed-Offs" />
+    <Folder Include="Config\Weapons\Ripjacks" />
+    <Folder Include="Config\Weapons\Pistols" />
     <Folder Include="Localization" />
     <Folder Include="Content" />
     <Folder Include="Src" />

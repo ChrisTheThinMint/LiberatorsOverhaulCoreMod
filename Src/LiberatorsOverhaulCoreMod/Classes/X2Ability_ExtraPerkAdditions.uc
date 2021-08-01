@@ -4,6 +4,7 @@ static function array<X2DataTemplate> CreateTemplates()
 {
 	local array<X2DataTemplate> Templates;
 	
+
 	Templates.AddItem(WeaponTraitLink('WeaponTraitSMG', 'ShadowOps_Overkill', 'smg', "img:///XPerkIconPack.UIPerk_command_move"));
 	Templates.AddItem(WeaponTraitLink('WeaponTraitBullpup', 'F_Stiletto', 'bullpup', "img:///XPerkIconPack.UIPerk_command_shot"));
 	Templates.AddItem(WeaponTraitLink('WeaponTraitRifle', 'F_Predator', 'rifle', "img:///XPerkIconPack.UIPerk_command_rifle"));
