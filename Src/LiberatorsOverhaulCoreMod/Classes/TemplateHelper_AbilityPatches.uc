@@ -35,7 +35,7 @@ static function PatchAbilityTemplates()
 
 	AbilityTemplateManager = class'X2AbilityTemplateManager'.static.GetAbilityTemplateManager();
 
-	Patch_AbilityIcon('RPGORebalance_BITSalvo', "img:///UILibrary_DLC3Images.UIPerk_spark_overdrive", AbilityTemplateManager);
+	//Patch_AbilityIcon('RPGORebalance_BITSalvo', "img:///UILibrary_DLC3Images.UIPerk_spark_overdrive", AbilityTemplateManager);
 
 	Patch_MakeAbilityBlueAction('LW2WotC_SteadyWeapon', AbilityTemplateManager);
 

@@ -1112,8 +1112,8 @@ LocHelpText="You gain +1 ablative health."
 [RPGORebalance_Shockproof X2AbilityTemplate]
 LocFriendlyName="Dynamo Bonus: Shockproof"
 LocFlyOverText="Dynamo Bonus: Shockproof"
-LocLongDescription="You gain immunity to disorientation and electrical damage."
-LocHelpText="You gain immunity to disorientation and electrical damage."
+LocLongDescription="You are immune to disorientation and electrical damage."
+LocHelpText="You are immune to disorientation and electrical damage."
 
 [RPGORebalance_AutogunBuff X2AbilityTemplate]
 LocFriendlyName="Arsenal Bonus: Autogun Expert"
@@ -1999,19 +1999,19 @@ TacticalText="<Bullet/> Provides immunity to bleeding and heals a portion of wou
 
 ; Abilities
 
-[AlloyPlatingEffect X2AbilityTemplate]
+[LiberatorsOverhaul_AlloyPlatingEffect X2AbilityTemplate]
 LocFriendlyName="Alloy Vest"
 LocFlyOverText="Alloy Vest"
 LocLongDescription="You gain <Ability:ALLOY_PLATING_HP> ablative hit points."
 LocHelpText="You gain <Ability:ALLOY_PLATING_HP> ablative hit points."
 
-[ImpactPlatingEffect X2AbilityTemplate]
+[LiberatorsOverhaul_ChitinPlatingEffect X2AbilityTemplate]
 LocFriendlyName="Reinforced Vest"
 LocFlyOverText="Reinforced Vest"
 LocLongDescription="You gain <Ability:CHITIN_PLATING_HP> ablative hit points."
 LocHelpText="You gain <Ability:CHITIN_PLATING_HP> ablative hit points."
 
-[AlloyPlatingEffect X2AbilityTemplate]
+[LiberatorsOverhaul_AlloyPlatingEffect X2AbilityTemplate]
 LocFriendlyName="Carapace Vest"
 LocFlyOverText="Carapace Vest"
 LocLongDescription="You gain <Ability:CARAPACE_PLATING_HP> ablative hit points."
@@ -2358,3 +2358,9 @@ LocHelpText="You and all allies within 2.5 tiles gain immunity to Poison. Also g
 [IRI_Rider_GalvanizedArmor X2AbilityTemplate]
 LocLongDescription="Enemy Shred is reduced by <Ability:GALVANIZED_ARMOR_SHRED_RESIST/> against this soldier, and can not remove the last <Ability:GALVANIZED_ARMOR_UNSHREDDABLE_ARMOR/> points of armor."
 LocHelpText="Enemy Shred is reduced by <Ability:GALVANIZED_ARMOR_SHRED_RESIST/> against this soldier, and can not remove the last <Ability:GALVANIZED_ARMOR_UNSHREDDABLE_ARMOR/> points of armor."
+
+[CannonPriorityTarget X2AbilityTemplate]
+LocFriendlyName="Priority Target"
+LocFlyOverText="Priority Target"
+LocLongDescription="The soldier is more likely to be targeted by enemies, due to the dangerous weapon they are carrying."
+LocHelpText="The soldier is more likely to be targeted by enemies, due to the dangerous weapon they are carrying."

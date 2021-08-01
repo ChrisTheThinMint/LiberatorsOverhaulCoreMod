@@ -66,12 +66,6 @@
     <Content Include="Config\Weapons\Vektor Rifles\XComTemplateEditor.ini">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Config\XComAbilityEditor.ini">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Config\XComAI.ini">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Config\XComAmmo.ini">
       <SubType>Content</SubType>
     </Content>
@@ -84,13 +78,7 @@
     <Content Include="Config\XComAutogunHeavyWeapon.ini">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Config\XComBDData.ini">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Config\XComBstarsPerkPack.ini">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Config\XComCIA.ini">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Config\XComClassData.ini">
@@ -103,9 +91,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Config\XComCrossTraining.ini">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Config\XComCSA.ini">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Config\XComDefensiveOverhaul.ini">
@@ -177,9 +162,6 @@
     <Content Include="Config\XComLW2SecondariesWOTC.ini">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Config\XComLW_SMGPack_WotC.ini">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Config\XComLW_SoldierSkills.ini">
       <SubType>Content</SubType>
     </Content>
@@ -190,9 +172,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Config\XComMZPerkPack.ini">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Config\XComMZPerkWeapons.ini">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Config\XComMZVestMod.ini">
@@ -208,9 +187,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Config\XComPunch.ini">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Config\XComRedFog.ini">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Config\XComRider.ini">
@@ -232,9 +208,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Config\XComScatter.ini">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Config\XComSecondWaveDeltaStrike.ini">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Config\XComSetItemWeight.ini">
@@ -307,12 +280,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Config\XComWOTC_APA_WeaponUpgrades.ini">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Config\XComWOTC_LW2_Plating.ini">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Config\XComWOTC_MultipleAttacksMayGraze.ini">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Config\XComWOTC_SoldierDevelopment.ini">
