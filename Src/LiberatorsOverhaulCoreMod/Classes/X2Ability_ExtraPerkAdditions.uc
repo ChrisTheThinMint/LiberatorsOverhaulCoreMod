@@ -20,6 +20,8 @@ static function array<X2DataTemplate> CreateTemplates()
 	Templates.AddItem(AlloyPlatingEffect());
 	Templates.AddItem(ChitinPlatingEffect());
 	Templates.AddItem(CarapacePlatingEffect());
+
+	Templates.AddItem(CannonPriorityTarget());
 	
 	Templates.AddItem(PurePassive('RPGORebalance_AutogunBuff', "img:///UILibrary_XPACK_Common.PerkIcons.UIPerk_strike"));
 	Templates.AddItem(PurePassive('RPGORebalance_BITSalvo', "img:///UILibrary_PerkIcons.UIPerk_salvo"));
@@ -215,7 +217,7 @@ static function X2AbilityTemplate CannonPriorityTarget()
 	local X2Effect_PersistentStatChange		PersistentStatChangeEffect;
 
 	`CREATE_X2ABILITY_TEMPLATE(Template, 'CannonPriorityTarget');
-	Template.IconImage = "img:///UILibrary_PerkIcons.UIPerk_shaken";
+	Template.IconImage = "img:///XPerkIconPack.UIPerk_panic_shot";
 
 	Template.AbilitySourceName = 'eAbilitySource_Item';
 	Template.eAbilityIconBehaviorHUD = EAbilityIconBehavior_NeverShow;

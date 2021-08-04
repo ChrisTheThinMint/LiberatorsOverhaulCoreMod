@@ -1,4 +1,4 @@
-class X2DownloadableContentInfo_LiberatorsOverhaulCoreMod extends X2DownloadableContentInfo config(GameData);
+class X2DownloadableContentInfo_LiberatorsOverhaulCoreMod extends X2DownloadableContentInfo config(Game);
 
 struct WeaponPoolTemplate
 {
