@@ -117,6 +117,8 @@ static function X2AbilityTemplate BITReinforced()
 	Template.AddTargetEffect(PersistentStatChangeEffect);
 
 	Template.BuildNewGameStateFn = TypicalAbility_BuildGameState;
+	
+	Template.SetUIStatMarkup(class'XLocalizedData'.default.HealthLabel, eStat_HP, 1);
 
 	return Template;	
 }
@@ -146,6 +148,8 @@ static function X2AbilityTemplate AlloyPlatingEffect()
 	Template.AddTargetEffect(PersistentStatChangeEffect);
 
 	Template.BuildNewGameStateFn = TypicalAbility_BuildGameState;
+	
+	Template.SetUIStatMarkup(class'XLocalizedData'.default.HealthLabel, eStat_HP, default.ALLOY_VEST_HP);
 
 	return Template;	
 }
@@ -176,6 +180,9 @@ static function X2AbilityTemplate ChitinPlatingEffect()
 	Template.AddTargetEffect(PersistentStatChangeEffect);
 
 	Template.BuildNewGameStateFn = TypicalAbility_BuildGameState;
+	
+	Template.SetUIStatMarkup(class'XLocalizedData'.default.HealthLabel, eStat_HP, default.CHITIN_VEST_HP);
+	Template.SetUIStatMarkup(class'XLocalizedData'.default.DodgeLabel, eStat_Dodge, default.CHITIN_VEST_DODGE);
 
 	return Template;	
 }
@@ -207,6 +214,10 @@ static function X2AbilityTemplate CarapacePlatingEffect()
 	Template.AddTargetEffect(PersistentStatChangeEffect);
 
 	Template.BuildNewGameStateFn = TypicalAbility_BuildGameState;
+	
+	Template.SetUIStatMarkup(class'XLocalizedData'.default.HealthLabel, eStat_HP, default.CARAPACE_VEST_HP);
+	Template.SetUIStatMarkup(class'XLocalizedData'.default.DodgeLabel, eStat_Dodge, default.CARAPACE_VEST_DODGE);
+	Template.SetUIStatMarkup(class'XLocalizedData'.default.MobilityLabel, eStat_Mobility, default.CARAPACE_VEST_MOB);
 
 	return Template;	
 }
@@ -222,7 +233,6 @@ static function X2AbilityTemplate CannonPriorityTarget()
 	Template.AbilitySourceName = 'eAbilitySource_Item';
 	Template.eAbilityIconBehaviorHUD = EAbilityIconBehavior_NeverShow;
 	Template.Hostility = eHostility_Neutral;
-	Template.bDisplayInUITacticalText = false;
 	
 	Template.AbilityToHitCalc = default.DeadEye;
 	Template.AbilityTargetStyle = default.SelfTarget;
@@ -237,6 +247,9 @@ static function X2AbilityTemplate CannonPriorityTarget()
 	Template.AddTargetEffect(PersistentStatChangeEffect);
 
 	Template.BuildNewGameStateFn = TypicalAbility_BuildGameState;
+	
+	Template.SetUIStatMarkup(class'XLocalizedData'.default.DodgeLabel, eStat_Dodge, default.PRIORITY_TARGET_DODGE);
+	Template.SetUIStatMarkup(class'XLocalizedData'.default.DefenseLabel, eStat_Defense, default.PRIORITY_TARGET_DEFENSE);
 
 	return Template;	
 }

@@ -1897,21 +1897,21 @@ FriendlyName="Alloy Plating"
 FriendlyNamePlural="Alloy Plating"
 UnknownUtilityCategory="Plating"
 BriefSummary="A heavy alloy plate carrier based on the one carried by ADVENT captains and generals for additional protection. Worn in place of a utility item to increase ablative HP."
-TacticalText="<Bullet/> Grants <Ability:ALLOY_PLATING_HP> ablative HP (currently not shown in the armory stat overview).<br/><Bullet/> Loss of ablative HP does not increase wound time."
+TacticalText="<Bullet/> Grants additional ablative HP.<br/><Bullet/> Loss of ablative HP does not increase wound time."
 
 [LW2WOTC_ChitinPlating X2EquipmentTemplate]
 FriendlyName="Reinforced Plating"
 FriendlyNamePlural="Reinforced Plating"
 UnknownUtilityCategory="Plating"
 BriefSummary="Mirroring the heavy armor design of the ADVENT Turret, the Reinforced Vest consists of layered alloy plating that can absorb even successive hits with ease. Worn in place of a utility item to significantly increase ablative HP, at the cost of some dodge."
-TacticalText="<Bullet/> Grants <Ability:CHITIN_PLATING_HP> ablative HP, but reduces dodge by 15 (currently not shown in the armory stat overview).<br/><Bullet/> Loss of ablative HP does not increase wound time."
+TacticalText="<Bullet/> Grants additional ablative HP, but makes it harder for the wearer to dodge.<br/><Bullet/> Loss of ablative HP does not increase wound time."
 
 [LW2WOTC_CarapacePlating X2EquipmentTemplate]
 FriendlyName="Carapace Plating"
 FriendlyNamePlural="Carapace Plating"
 UnknownUtilityCategory="Plating"
 BriefSummary="Superheavy plating salvaged from Sectopod armor, using assisting servos to maintain a reasonable level of flexibility.  Worn in place of a utility item to massively increase ablative HP, at the cost of dodge and mobility."
-TacticalText="<Bullet/> Grants <Ability:CARAPACE_PLATING_HP> ablative HP, but reduces dodge by 20 and mobility by 2 (currently not shown in the armory stat overview).<br/><Bullet/> Loss of ablative HP does not increase wound time."
+TacticalText="<Bullet/> Grants additional ablative HP, but significantly impacts the soldier's mobility and evasion.<br/><Bullet/> Loss of ablative HP does not increase wound time."
 
 [NanofiberVest X2EquipmentTemplate]
 FriendlyName="Nanoscale Weave"
