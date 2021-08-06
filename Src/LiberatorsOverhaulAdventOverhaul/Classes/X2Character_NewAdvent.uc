@@ -52,7 +52,8 @@ static function X2CharacterTemplate CreateTemplate_AdvAssaultM1()
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Male";
 
-	CharTemplate.CharacterBaseStats[eStat_HP] = 1;
+	CharTemplate.CharacterBaseStats[eStat_HP] = 5;
+	CharTemplate.CharacterBaseStats[eStat_Offense] = 75;
 
 	return CharTemplate;
 }
@@ -70,7 +71,8 @@ static function X2CharacterTemplate CreateTemplate_AdvAssaultM2()
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Male";
 
-	CharTemplate.CharacterBaseStats[eStat_HP] = 1;
+	CharTemplate.CharacterBaseStats[eStat_HP] = 8;
+	CharTemplate.CharacterBaseStats[eStat_Offense] = 75;
 
 	return CharTemplate;
 }
@@ -88,7 +90,8 @@ static function X2CharacterTemplate CreateTemplate_AdvAssaultM3()
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Male";
 
-	CharTemplate.CharacterBaseStats[eStat_HP] = 1;
+	CharTemplate.CharacterBaseStats[eStat_HP] = 12;
+	CharTemplate.CharacterBaseStats[eStat_Offense] = 75;
 
 	return CharTemplate;
 }
@@ -107,7 +110,7 @@ static function X2CharacterTemplate CreateTemplate_AdvSniperM1()
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Male";
 
-	CharTemplate.CharacterBaseStats[eStat_HP] = 1;
+	CharTemplate.CharacterBaseStats[eStat_HP] = 4;
 
 	return CharTemplate;
 }
@@ -126,7 +129,8 @@ static function X2CharacterTemplate CreateTemplate_AdvSniperM2()
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Male";
 
-	CharTemplate.CharacterBaseStats[eStat_HP] = 1;
+	CharTemplate.CharacterBaseStats[eStat_HP] = 6;
+	CharTemplate.CharacterBaseStats[eStat_Offense] = 75;
 
 	return CharTemplate;
 }
@@ -145,7 +149,8 @@ static function X2CharacterTemplate CreateTemplate_AdvSniperM3()
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Male";
 
-	CharTemplate.CharacterBaseStats[eStat_HP] = 1;
+	CharTemplate.CharacterBaseStats[eStat_HP] = 8;
+	CharTemplate.CharacterBaseStats[eStat_Offense] = 75;
 
 	return CharTemplate;
 }
@@ -164,7 +169,8 @@ static function X2CharacterTemplate CreateTemplate_AdvMedicM1()
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Female";
 
-	CharTemplate.CharacterBaseStats[eStat_HP] = 1;
+	CharTemplate.CharacterBaseStats[eStat_HP] = 4;
+	CharTemplate.CharacterBaseStats[eStat_Offense] = 75;
 
 	return CharTemplate;
 }
@@ -183,7 +189,8 @@ static function X2CharacterTemplate CreateTemplate_AdvMedicM2()
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Female";
 
-	CharTemplate.CharacterBaseStats[eStat_HP] = 1;
+	CharTemplate.CharacterBaseStats[eStat_HP] = 6;
+	CharTemplate.CharacterBaseStats[eStat_Offense] = 75;
 
 	return CharTemplate;
 }
@@ -202,7 +209,8 @@ static function X2CharacterTemplate CreateTemplate_AdvMedicM3()
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Female";
 
-	CharTemplate.CharacterBaseStats[eStat_HP] = 1;
+	CharTemplate.CharacterBaseStats[eStat_HP] = 8;
+	CharTemplate.CharacterBaseStats[eStat_Offense] = 75;
 
 	return CharTemplate;
 }
@@ -397,6 +405,13 @@ static function X2CharacterTemplate CreateStandardAdvent(name TemplateName)
 	CharTemplate.strMatineePackages.AddItem("CIN_Advent");
 
 	CharTemplate.UnitSize = 1;
+	CharTemplate.CharacterBaseStats[eStat_AlertLevel]=2;
+	CharTemplate.CharacterBaseStats[eStat_HP]=5;
+	CharTemplate.CharacterBaseStats[eStat_Mobility]=12;
+	CharTemplate.CharacterBaseStats[eStat_Offense]=75;
+	CharTemplate.CharacterBaseStats[eStat_SightRadius]=27;
+	CharTemplate.CharacterBaseStats[eStat_DetectionRadius]=12;
+	CharTemplate.CharacterBaseStats[eStat_UtilityItems]=1;
 
 	// Traversal Rules
 	CharTemplate.bCanUse_eTraversal_Normal = true;

@@ -9,6 +9,12 @@
     <RootNamespace>LiberatorsOverhaulCoreMod</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Config\ADVENT\XComTemplateCreator.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\ADVENT\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Config\Weapons\Artillery Cannons\XComTemplateEditor.ini">
       <SubType>Content</SubType>
     </Content>
@@ -445,6 +451,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Config" />
+    <Folder Include="Config\ADVENT" />
     <Folder Include="Config\Weapons" />
     <Folder Include="Config\Weapons\Assault Rifles" />
     <Folder Include="Config\Weapons\Autopistols" />
