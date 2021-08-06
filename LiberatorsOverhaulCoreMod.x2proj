@@ -285,7 +285,46 @@
     <Content Include="Config\XComWOTC_SoldierDevelopment.ini">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Content\ABA_NewAdventWeapons.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\AssaultTroopers\CIN_AssTrooper.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\AssaultTroopers\WoTC_Advent_Assault_Trooper.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\AssaultTroopers\WoTC_Advent_Assault_Trooper_GL.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\AssaultTroopers\WoTC_Advent_Assault_Trooper_Grenades.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\AssaultTroopers\WoTC_Advent_Assault_Trooper_Shotguns.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\AssaultTroopers\WoTC_Advent_Assault_Trooper_UI.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\AssaultTroopers\WoTC_Radiation_Status_Effect.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\BetterTroopers.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\LWDrone.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\LWDroneWeapon.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\LWDroneWeapon_alternate_beam.upk">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Content\UILibrary_MZButterflyClass.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\XAdventTrooper.upk">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Localization\MitzrutiPerkPack.int">
@@ -328,6 +367,21 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ReadMe.txt" />
+    <Content Include="Src\LiberatorsOverhaulAdventOverhaul\Classes\X2Action_CustomizeAlienRNFs.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulAdventOverhaul\Classes\X2Character_NewAdvent.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulAdventOverhaul\Classes\X2DownloadableContentInfo_LiberatorsOverhaulAdventOverhaul.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulAdventOverhaul\Classes\X2EventListener_AlienCustomization.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulAdventOverhaul\Classes\XComGameState_Unit_AlienCustomization.uc">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\CoverDR_Impl.uc">
       <SubType>Content</SubType>
     </Content>
@@ -411,11 +465,14 @@
     <Folder Include="Config\Weapons\Sawed-Offs" />
     <Folder Include="Config\Weapons\Ripjacks" />
     <Folder Include="Config\Weapons\Pistols" />
+    <Folder Include="Content\AssaultTroopers" />
     <Folder Include="Localization" />
     <Folder Include="Content" />
     <Folder Include="Src" />
+    <Folder Include="Src\LiberatorsOverhaulAdventOverhaul\Classes" />
     <Folder Include="Src\LiberatorsOverhaulCoreMod" />
     <Folder Include="Src\LiberatorsOverhaulCoreMod\Classes" />
+    <Folder Include="Src\LiberatorsOverhaulAdventOverhaul" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
 </Project>
