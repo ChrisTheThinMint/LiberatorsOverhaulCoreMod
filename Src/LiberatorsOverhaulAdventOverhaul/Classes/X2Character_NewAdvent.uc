@@ -31,6 +31,44 @@ static function array<X2DataTemplate> CreateTemplates()
 	return Templates;
 }
 
+static function X2CharacterTemplate CreateTemplate_AdvTrooperM4()
+{
+	local X2CharacterTemplate CharTemplate;
+	local LootReference Loot;
+
+	CharTemplate = CreateStandardAdvent('AdvTrooperM4');
+	CharTemplate.strPawnArchetypes.AddItem("GameUnit_AdvTrooper.ARC_GameUnit_AdvTrooperM3_M");
+	CharTemplate.strPawnArchetypes.AddItem("GameUnit_AdvTrooper.ARC_GameUnit_AdvTrooperM3_F");
+
+	CharTemplate.CharacterGroupName = 'AdventTrooper';
+	CharTemplate.DefaultLoadout='AdvTrooperM4_Loadout';
+
+	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Male";
+
+	CharTemplate.CharacterBaseStats[eStat_HP] = 10;
+
+	return CharTemplate;
+}
+
+static function X2CharacterTemplate CreateTemplate_AdvSniperM1()
+{
+	local X2CharacterTemplate CharTemplate;
+	local LootReference Loot;
+	
+	CharTemplate = CreateStandardAdvent('AdvTrooperM5');
+	CharTemplate.strPawnArchetypes.AddItem("GameUnit_AdvTrooper.ARC_GameUnit_AdvTrooperM3_M");
+	CharTemplate.strPawnArchetypes.AddItem("GameUnit_AdvTrooper.ARC_GameUnit_AdvTrooperM3_F");
+	
+	CharTemplate.CharacterGroupName = 'AdventTrooper';
+	CharTemplate.DefaultLoadout='AdvTrooperM5_Loadout';
+
+	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Male";
+
+	CharTemplate.CharacterBaseStats[eStat_HP] = 12;
+
+	return CharTemplate;
+}
+
 static function X2CharacterTemplate CreateTemplate_AdvAssaultM1()
 {
 	local X2CharacterTemplate CharTemplate;
