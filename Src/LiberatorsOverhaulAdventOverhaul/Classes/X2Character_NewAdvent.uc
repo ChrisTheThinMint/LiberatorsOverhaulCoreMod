@@ -3,6 +3,9 @@ class X2Character_NewAdvent extends X2Character config(GameData_CharacterStats);
 static function array<X2DataTemplate> CreateTemplates()
 {
 	local array<X2DataTemplate> Templates;
+
+	Templates.AddItem(CreateTemplate_AdvTrooperM4());
+	Templates.AddItem(CreateTemplate_AdvTrooperM5());
 	
 	Templates.AddItem(CreateTemplate_AdvAssaultM1());
 	Templates.AddItem(CreateTemplate_AdvAssaultM2());
@@ -50,7 +53,7 @@ static function X2CharacterTemplate CreateTemplate_AdvTrooperM4()
 	return CharTemplate;
 }
 
-static function X2CharacterTemplate CreateTemplate_AdvSniperM1()
+static function X2CharacterTemplate CreateTemplate_AdvTrooperM5()
 {
 	local X2CharacterTemplate CharTemplate;
 	local LootReference Loot;

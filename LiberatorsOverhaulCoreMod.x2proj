@@ -406,6 +406,9 @@
     <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\WOTC_APA_Class_Utilities_Effects.uc">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\X2AbilityTarget_Single_PointDefense.uc">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Src\LiberatorsOverhaulCoreMod\Classes\X2Ability_ExtraPerkAdditions.uc">
       <SubType>Content</SubType>
     </Content>

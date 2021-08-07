@@ -43,7 +43,7 @@ static function array<X2DataTemplate> CreateTemplates()
 }
 
 
-static function X2AbilityTemplate CloseCombatSpecialist()
+static function X2AbilityTemplate OneUseCloseCombatSpecialist()
 {
 	local X2AbilityTemplate                 Template;
 
@@ -54,7 +54,7 @@ static function X2AbilityTemplate CloseCombatSpecialist()
 	return Template;
 }
 
-static function X2AbilityTemplate CloseCombatSpecialistAttack()
+static function X2AbilityTemplate OneUseCloseCombatSpecialistAttack()
 {
 	local X2AbilityTemplate								Template;
 	local X2AbilityToHitCalc_StandardAim				ToHitCalc;
@@ -129,9 +129,6 @@ static function X2AbilityTemplate CloseCombatSpecialistAttack()
 	SourceNotConcealedCondition = new class'X2Condition_UnitProperty';
 	SourceNotConcealedCondition.ExcludeConcealed = true;
 	Template.AbilityShooterConditions.AddItem(SourceNotConcealedCondition);
-
-	// Don't trigger while suppressed, if configured
-	HandleSuppressionRestriction(Template);
 
 	// Effect that limits the range of the reaction shot
 	SingleTarget = new class'X2AbilityTarget_Single_PointDefense';
