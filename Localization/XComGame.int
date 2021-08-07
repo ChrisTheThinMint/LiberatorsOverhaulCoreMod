@@ -459,8 +459,15 @@ LocFriendlyName="Into The Breach"
 LocFlyOverText="Into The Breach"
 
 [LW2WotC_CloseCombatSpecialist X2AbilityTemplate]
+LocFriendlyName="Close Combat Specialist"
+LocFlyOverText="Close Combat Specialist"
+
+[Lib_PointDefense X2AbilityTemplate]
 LocFriendlyName="Point Defense"
 LocFlyOverText="Point Defense"
+LocLongDescription="Once during enemy turns, fire a free reaction shot at a visible enemy that moves or fires within 5 tiles."
+LocHelpText="Once during enemy turns, fire a free reaction shot at a visible enemy that moves or fires within 5 tiles."
+LocPromotionPopupText="<Bullet/> Will not trigger if soldier is concealed.<br/><Bullet/> You may shoot with this ability once per turn.<br/><Bullet/> Each shot requires <Ability:CCS_AMMO_PER_SHOT/> ammo.<br/>"
 
 [ShadowOps_Tactician X2AbilityTemplate]
 LocFriendlyName="Unerring Accuracy"
