@@ -16,6 +16,10 @@ static function array<X2DataTemplate> CreateTemplates()
 {
 	local array<X2DataTemplate> Templates;
 
+	Templates.AddItem(PurePassive('RPGORebalance_QuickReload', "img:///XPerkIconPack.UIPerk_reload_plus"));
+	
+	Templates.AddItem(PurePassive('RPGORebalance_QuickThrow', "img:///XPerkIconPack.UIPerk_grenade_plus"));
+
 	Templates.AddItem(OneUseCloseCombatSpecialist());
 	Templates.AddItem(OneUseCloseCombatSpecialistAttack());
 	

@@ -62,6 +62,7 @@ static function PatchAbilityTemplates()
 	Patch_ReturnFire(AbilityTemplateManager);
 	Patch_ShieldStomp(AbilityTemplateManager);
 	Patch_Reload(AbilityTemplateManager);
+	Patch_ThrowGrenade(AbilityTemplateManager);
 	Patch_MedicalSpecialist(AbilityTemplateManager);
 	Patch_Haymaker(AbilityTemplateManager);
 	Patch_ShotgunCharge(AbilityTemplateManager);
@@ -561,6 +562,40 @@ static function Patch_Reload(X2AbilityTemplateManager AbilityTemplateManager)
 			ActionPointCost.bFreeCost = false;
 			ActionPointCost.DoNotConsumeAllSoldierAbilities.AddItem('TotalCombat');
 			ActionPointCost.DoNotConsumeAllSoldierAbilities.AddItem('Quickdraw');
+			ActionPointCost.DoNotConsumeAllSoldierAbilities.AddItem('RPGORebalance_QuickReload');
+			ActionPointCost.DoNotConsumeAllEffects.AddItem('DLC_3Overdrive');
+			AbilityTemplate.AbilityCosts.AddItem(ActionPointCost);
+			`LOG("Added new action cost", ,'LiberatorsOverhaul');
+		}
+	}
+}
+
+static function Patch_ThrowGrenade(X2AbilityTemplateManager AbilityTemplateManager)
+{
+	local array<X2DataTemplate>				TemplateAllDifficulties;
+	local X2DataTemplate					Template;
+	local X2AbilityTemplate					AbilityTemplate;
+	local name								TemplateName;
+	local X2AbilityCost_ActionPoints		ActionPointCost;
+
+	AbilityTemplateManager.FindDataTemplateAllDifficulties('ThrowGrenade', TemplateAllDifficulties);
+	foreach TemplateAllDifficulties(Template)
+	{
+		AbilityTemplate = X2AbilityTemplate(Template);
+
+		if (AbilityTemplate != none)
+		{
+			`LOG("Ability template" @ AbilityTemplate.DataName @ "exists, patching...", ,'LiberatorsOverhaul');
+
+			AbilityTemplate.AbilityCosts.Length = 0;
+			`LOG("Removed old action cost", ,'LiberatorsOverhaul');
+
+			ActionPointCost = new class'X2AbilityCost_ActionPoints';
+			ActionPointCost.iNumPoints = 1;
+			ActionPointCost.bConsumeAllPoints = true;
+			ActionPointCost.bFreeCost = false;
+			ActionPointCost.DoNotConsumeAllSoldierAbilities.AddItem('TotalCombat');
+			ActionPointCost.DoNotConsumeAllSoldierAbilities.AddItem('RPGORebalance_QuickThrow');
 			ActionPointCost.DoNotConsumeAllEffects.AddItem('DLC_3Overdrive');
 			AbilityTemplate.AbilityCosts.AddItem(ActionPointCost);
 			`LOG("Added new action cost", ,'LiberatorsOverhaul');

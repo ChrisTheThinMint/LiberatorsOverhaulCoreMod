@@ -2371,3 +2371,15 @@ LocFriendlyName="Priority Target"
 LocFlyOverText="Priority Target"
 LocLongDescription="The soldier is more likely to be targeted by enemies, due to the dangerous weapon they are carrying."
 LocHelpText="The soldier is more likely to be targeted by enemies, due to the dangerous weapon they are carrying."
+
+[RPGORebalance_QuickReload X2AbilityTemplate]
+LocFriendlyName="Quick Reload"
+LocFlyOverText="Quick Reload"
+LocLongDescription="This unit can reload their weapon as their first action without ending their turn."
+LocHelpText="This unit can reload their weapon as their first action without ending their turn."
+
+[RPGORebalance_QuickThrow X2AbilityTemplate]
+LocFriendlyName="Quick Throw"
+LocFlyOverText="Quick Throw"
+LocLongDescription="This unit can throw grenades as their first action without ending their turn."
+LocHelpText="This unit can throw grenades as their first action without ending their turn."
