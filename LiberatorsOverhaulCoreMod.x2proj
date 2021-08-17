@@ -9,7 +9,13 @@
     <RootNamespace>LiberatorsOverhaulCoreMod</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Config\ADVENT\ABAI\XComAI.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Config\ADVENT\XComAI.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\ADVENT\XComGameData.ini">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Config\ADVENT\XComTemplateCreator.ini">
@@ -376,7 +382,16 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ReadMe.txt" />
+    <Content Include="Src\LiberatorsOverhaulAdventOverhaul\Classes\AdventMedic_X2AIBTActions.uc">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Src\LiberatorsOverhaulAdventOverhaul\Classes\X2Action_CustomizeAlienRNFs.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulAdventOverhaul\Classes\X2AIBT_AdditionalAIActions.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LiberatorsOverhaulAdventOverhaul\Classes\X2AIBT_AdditionalAIConditions.uc">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Src\LiberatorsOverhaulAdventOverhaul\Classes\X2Character_NewAdvent.uc">
@@ -458,6 +473,7 @@
   <ItemGroup>
     <Folder Include="Config" />
     <Folder Include="Config\ADVENT" />
+    <Folder Include="Config\ADVENT\ABAI" />
     <Folder Include="Config\Weapons" />
     <Folder Include="Config\Weapons\Assault Rifles" />
     <Folder Include="Config\Weapons\Autopistols" />
