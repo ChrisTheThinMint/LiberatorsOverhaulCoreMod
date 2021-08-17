@@ -45,6 +45,7 @@ static function X2CharacterTemplate CreateTemplate_AdvTrooperM4()
 
 	CharTemplate.CharacterGroupName = 'AdventTrooper';
 	CharTemplate.DefaultLoadout='AdvTrooperM4_Loadout';
+	CharTemplate.strBehaviorTree = "AdventTrooper::CharacterRoot";
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Male";
 
@@ -64,6 +65,7 @@ static function X2CharacterTemplate CreateTemplate_AdvTrooperM5()
 	
 	CharTemplate.CharacterGroupName = 'AdventTrooper';
 	CharTemplate.DefaultLoadout='AdvTrooperM5_Loadout';
+	CharTemplate.strBehaviorTree = "AdventTrooper::CharacterRoot";
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Male";
 
@@ -82,6 +84,7 @@ static function X2CharacterTemplate CreateTemplate_AdvAssaultM1()
 
 	CharTemplate.CharacterGroupName = 'AdventAssault';
 	CharTemplate.DefaultLoadout='AdvAssaultM1_Loadout';
+	CharTemplate.strBehaviorTree = "AdventAssault::CharacterRoot";
 
 	/*Loot.LootTableName='AdvStunLancerM3_BaseLoot';
 	CharTemplate.Loot.LootReferences.AddItem(Loot);
@@ -109,6 +112,7 @@ static function X2CharacterTemplate CreateTemplate_AdvAssaultM2()
 
 	CharTemplate.CharacterGroupName = 'AdventAssault';
 	CharTemplate.DefaultLoadout='AdvAssaultM2_Loadout';
+	CharTemplate.strBehaviorTree = "AdventAssault::CharacterRoot";
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Male";
 
@@ -128,6 +132,7 @@ static function X2CharacterTemplate CreateTemplate_AdvAssaultM3()
 
 	CharTemplate.CharacterGroupName = 'AdventAssault';
 	CharTemplate.DefaultLoadout='AdvAssaultM3_Loadout';
+	CharTemplate.strBehaviorTree = "AdventAssault::CharacterRoot";
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Male";
 
@@ -148,10 +153,13 @@ static function X2CharacterTemplate CreateTemplate_AdvSniperM1()
 
 	CharTemplate.CharacterGroupName = 'AdventSniper';
 	CharTemplate.DefaultLoadout='AdvSniperM1_Loadout';
+	CharTemplate.strBehaviorTree = "AdventSniper::CharacterRoot";
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Male";
 
 	CharTemplate.CharacterBaseStats[eStat_HP] = 4;
+
+	CharTemplate.Abilities.AddItem('MarkTarget');
 
 	return CharTemplate;
 }
@@ -167,11 +175,14 @@ static function X2CharacterTemplate CreateTemplate_AdvSniperM2()
 
 	CharTemplate.CharacterGroupName = 'AdventSniper';
 	CharTemplate.DefaultLoadout='AdvSniperM2_Loadout';
+	CharTemplate.strBehaviorTree = "AdventSniper::CharacterRoot";
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Male";
 
 	CharTemplate.CharacterBaseStats[eStat_HP] = 6;
 	CharTemplate.CharacterBaseStats[eStat_Offense] = 75;
+
+	CharTemplate.Abilities.AddItem('MarkTarget');
 
 	return CharTemplate;
 }
@@ -187,11 +198,14 @@ static function X2CharacterTemplate CreateTemplate_AdvSniperM3()
 
 	CharTemplate.CharacterGroupName = 'AdventSniper';
 	CharTemplate.DefaultLoadout='AdvSniperM3_Loadout';
+	CharTemplate.strBehaviorTree = "AdventSniper::CharacterRoot";
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Male";
 
 	CharTemplate.CharacterBaseStats[eStat_HP] = 8;
 	CharTemplate.CharacterBaseStats[eStat_Offense] = 75;
+
+	CharTemplate.Abilities.AddItem('MarkTarget');
 
 	return CharTemplate;
 }
@@ -207,6 +221,7 @@ static function X2CharacterTemplate CreateTemplate_AdvMedicM1()
 
 	CharTemplate.CharacterGroupName = 'AdventMedic';
 	CharTemplate.DefaultLoadout='AdvMedicM1_Loadout';
+	CharTemplate.strBehaviorTree = "AdventMedic::CharacterRoot";
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Female";
 
@@ -227,6 +242,7 @@ static function X2CharacterTemplate CreateTemplate_AdvMedicM2()
 
 	CharTemplate.CharacterGroupName = 'AdventMedic';
 	CharTemplate.DefaultLoadout='AdvMedicM2_Loadout';
+	CharTemplate.strBehaviorTree = "AdventMedic::CharacterRoot";
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Female";
 
@@ -247,6 +263,7 @@ static function X2CharacterTemplate CreateTemplate_AdvMedicM3()
 
 	CharTemplate.CharacterGroupName = 'AdventMedic';
 	CharTemplate.DefaultLoadout='AdvMedicM3_Loadout';
+	CharTemplate.strBehaviorTree = "AdventMedic::CharacterRoot";
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper_Female";
 
@@ -265,6 +282,7 @@ static function X2CharacterTemplate CreateTemplate_AdvSpecialistM1()
 
 	CharTemplate.CharacterGroupName = 'AdventSpecialist';
 	CharTemplate.DefaultLoadout='AdvSpecialistM1_Loadout';
+	CharTemplate.strBehaviorTree = "AdventSpecialist::CharacterRoot";
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper";
 	CharTemplate.GetRevealMatineePrefixFn = GetAdventMatineePrefix;
@@ -285,6 +303,7 @@ static function X2CharacterTemplate CreateTemplate_AdvSpecialistM2()
 
 	CharTemplate.CharacterGroupName = 'AdventSpecialist';
 	CharTemplate.DefaultLoadout='AdvSpecialistM2_Loadout';
+	CharTemplate.strBehaviorTree = "AdventSpecialist::CharacterRoot";
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper";
 	CharTemplate.GetRevealMatineePrefixFn = GetAdventMatineePrefix;
@@ -305,6 +324,7 @@ static function X2CharacterTemplate CreateTemplate_AdvSpecialistM3()
 
 	CharTemplate.CharacterGroupName = 'AdventSpecialist';
 	CharTemplate.DefaultLoadout='AdvSpecialistM3_Loadout';
+	CharTemplate.strBehaviorTree = "AdventSpecialist::CharacterRoot";
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper";
 	CharTemplate.GetRevealMatineePrefixFn = GetAdventMatineePrefix;
@@ -325,6 +345,7 @@ static function X2CharacterTemplate CreateTemplate_AdvHunterM1()
 
 	CharTemplate.CharacterGroupName = 'AdventHunter';
 	CharTemplate.DefaultLoadout='AdvHunterM1_Loadout';
+	CharTemplate.strBehaviorTree = "AdventHunter::CharacterRoot";
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper";
 	CharTemplate.GetRevealMatineePrefixFn = GetAdventMatineePrefix;
@@ -345,6 +366,7 @@ static function X2CharacterTemplate CreateTemplate_AdvHunterM2()
 
 	CharTemplate.CharacterGroupName = 'AdventHunter';
 	CharTemplate.DefaultLoadout='AdvHunterM2_Loadout';
+	CharTemplate.strBehaviorTree = "AdventHunter::CharacterRoot";
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper";
 	CharTemplate.GetRevealMatineePrefixFn = GetAdventMatineePrefix;
@@ -365,6 +387,7 @@ static function X2CharacterTemplate CreateTemplate_AdvHunterM3()
 
 	CharTemplate.CharacterGroupName = 'AdventHunter';
 	CharTemplate.DefaultLoadout='AdvHunterM3_Loadout';
+	CharTemplate.strBehaviorTree = "AdventHunter::CharacterRoot";
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper";
 	CharTemplate.GetRevealMatineePrefixFn = GetAdventMatineePrefix;
@@ -385,6 +408,7 @@ static function X2CharacterTemplate CreateTemplate_AdvEngineerM1()
 
 	CharTemplate.CharacterGroupName = 'AdventEngineer';
 	CharTemplate.DefaultLoadout='AdvEngineerM1_Loadout';
+	CharTemplate.strBehaviorTree = "AdventEngineer::CharacterRoot";
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper";
 	CharTemplate.GetRevealMatineePrefixFn = GetAdventMatineePrefix;
@@ -405,6 +429,7 @@ static function X2CharacterTemplate CreateTemplate_AdvEngineerM2()
 
 	CharTemplate.CharacterGroupName = 'AdventEngineer';
 	CharTemplate.DefaultLoadout='AdvEngineerM2_Loadout';
+	CharTemplate.strBehaviorTree = "AdventEngineer::CharacterRoot";
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper";
 	CharTemplate.GetRevealMatineePrefixFn = GetAdventMatineePrefix;
@@ -425,6 +450,7 @@ static function X2CharacterTemplate CreateTemplate_AdvEngineerM3()
 
 	CharTemplate.CharacterGroupName = 'AdventEngineer';
 	CharTemplate.DefaultLoadout='AdvEngineerM3_Loadout';
+	CharTemplate.strBehaviorTree = "AdventEngineer::CharacterRoot";
 
 	CharTemplate.RevealMatineePrefix = "CIN_Advent_Trooper";
 	CharTemplate.GetRevealMatineePrefixFn = GetAdventMatineePrefix;

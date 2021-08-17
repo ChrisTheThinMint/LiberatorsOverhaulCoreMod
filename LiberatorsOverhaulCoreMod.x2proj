@@ -9,6 +9,9 @@
     <RootNamespace>LiberatorsOverhaulCoreMod</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Config\ADVENT\XComAI.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Config\ADVENT\XComTemplateCreator.ini">
       <SubType>Content</SubType>
     </Content>
